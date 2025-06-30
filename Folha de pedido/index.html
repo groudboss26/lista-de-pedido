@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>folha de pedido</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/pedido.css">
+    <link rel="stylesheet" href="Style/navPedido.css">
+    <link rel="stylesheet" href="Style/Nigiri.css">
+    <link rel="stylesheet" href="Style/sashimis.css">
+</head>
+
+<body>
+    <div class="nav" >
+        <form autocomplete="off">
+
+        <h2>Pedido de Sushi.</h2>
+        <!--Inserir dados como: Nome, Telefone e data do pedido a ser feito ou entregue.-->
+        <p class="botaoFinalizar"><input type="button" value="Finalizar Pedido" onclick="finalizar()"></p>
+
+        <p class="navPreenchimento">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="tel">Tel:</label>
+            <input type="tel" name="telle" id="tel">
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">
+
+        </p>
+        
+        </form>
+
+    </div>
+
+    <div class="navProdutos">
+        <button type="button" name="nigiri" onclick="nigiri()">Nigiri/Sushi</button>
+        <button type="button"  name="rigaware" onclick="SaShimis()">Sashimis</button>
+    </div>
+
+    <div class="SushiNigiri">
+
+        <form action="" autocomplete="off" class="grade">
+            <!-- seção onde ocorregar o pedido.-->
+            <h2>Sushi/Nigiri</h2>
+
+            <!-- Sushi/Nigiri Atum-->
+
+            <div class="nigiriAtum">
+
+                <h3>Sushi/Nigiri Atum</h3>
+                <p>
+                    <label for="atum">
+                        <img src="img/sushi/nigiri img/Atum.png" alt="atum" width="200" height="200">
+                    </label>
+                    <input type="number" name="atum" id="atum" class="atum">
+                </p>
+                <p class="botaoNigiriAtum">
+                    <input type="button" value="Adicionar" onclick="sushiAtum()">
+                    <input type="button" value="Excluir" onclick="excluirAtum()">
+                </p>
+
+            </div>
+
+
+            <!--Sushi/Nigiri Ebi-->
+            <div class="nigiriEbi">
+                <h3>Sushi/Nigiri Ebi</h3>
+
+                <p>
+                    <label for="ebi"><img src="img/sushi/nigiri img/Ebi.png" alt="Ebi" width="200" height="200"></label>
+                    <input type="number" name="ebi" id="ebi" class="ebi">
+                </p>
+                <p class="botaoNigiriEbi">
+
+                    <input type="button" value="Adicionar" onclick="sushiEbi()">
+                    <input type="button" value="Excluir" onclick="ExcluirEbi()">
+                </p>
+
+            </div>
+
+            <!-- Sushi/Nigiri Kani-->
+
+            <div class="nigiriKani">
+                <h3>Sushi/Nigiri Kani</h3>
+
+                <p>
+                    <label for="kani"><img src="img/sushi/nigiri img/Kani.png" alt="Kani" width="200" height="200"></label>
+                    <input type="number" name="kani" id="kani" class="kani">
+                    
+                </p>
+                
+                <p class="botaoNigiriKani">
+                    
+                    <input type="button" value="Adicionar" onclick="sushikani()">
+                    <input type="button" value="Excluir" onclick="excluirKani()">
+                </p>
+            </div>
+
+            <!-- Sushi/Nigiri Peixe branco-->
+
+            <div class="nigiriPeixeBranco">
+
+                <h3>Sushi/Nigiri Peixe Branco</h3>
+
+                <p>
+                    <label for="peixeBranco"><img src="img/sushi/nigiri img/peixeBranco.png" alt="Peixe Branco" width="200" height="200"></label>
+
+                    <input type="number" name="peixeBranco" id="peixeBranco" class="peixeBranco">
+                </p>
+                
+                <p class="botaoNigiriPeixeBranco">
+                    
+                    <input type="button" value="Adicionar" onclick="sushiPeixeBranco()">
+                    <input type="button" value="Excluir" onclick="excluirPeixeBranco()">
+                </p>
+
+            </div>
+
+            <!-- sushi/Nigiri salmão-->
+            <div class="nigiriSalmao">
+
+                <h3>Sushi/Nigiri Salmão</h3>
+
+                <p>
+                    <label for="salmao"> <img src="img/sushi/nigiri img/salmão.png" alt="Salmão" width="200" height="200"></label>
+
+                    <input type="number" name="salmao" id="salmao" class="salmao">
+
+                </p>
+                
+                <p class="botaoNigiriSalmao">
+
+                    <input type="button" value="Adicionar" onclick="sushiSalmao()">
+    
+                    <input type="button" value="Excluir" onclick="excluirSalmao()">
+
+                </p>
+
+            </div>
+
+            <!-- Sushi/Nigiri Skin-->
+
+            <div class="nigiriSkin">
+
+                <h3>Sushi/Nigiri Skin</h3>
+
+                <p>
+                    <label for="skin"><img src="img/sushi/nigiri img/Skin.png" alt="Salmão" width="200" height="200"></label>
+                    <input type="number" name="skin" id="skin" class="skin">
+                </p>
+                
+                <p class="botaoNigiriSkin">
+                    
+                    <input type="button" value="Adicionar" onclick="sushiSkin()">
+                    <input type="button" value="Excluir" onclick="excluirSkin()">
+                </p>
+
+            </div>
+
+            <!-- Sushi/Nigiri Tilapia -->
+
+            <div class="nigiriTilapia">
+
+                <h3>Sushi/Nigiri Tílapia</h3>
+
+                <p>
+                    <label for="tilapia"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="tilapia" id="tilapia" class="tilapia">
+                </p>
+
+                <p class="botaoNigiriTilapia">
+                    <input type="button" value="Adicionar" onclick="sushiTilapia()">
+                    <input type="button" value="Excluir" onclick="excluirTilapia()">
+                </p>
+            </div>
+
+            <!-- Djow de Salmão-->
+
+            <div class="DjowSalmao">
+                <h3>Djow de Salmão</h3>
+                <p>
+                    <label for="djowSalmao"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="djowSalmao" id="djowSalmao" class="djowSalmao">
+                </p>
+
+                <p class="botaoDjowSalmao">
+                    <input type="button" value="Adicionar" onclick="nigiriDjowSalmao()">
+                    <input type="button" value="Excluir" onclick="excluirDjowSalmao()">
+                </p>
+            </div>
+
+            <!-- Djow de geleia-->
+
+            <div class="DjowGeleia">
+                <h3>Djow de Geleia de Pimenta</h3>
+                <p>
+                    <label for="djowGeleia"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="djowGeleia" id="djowGeleia" class="djowGeleia">
+                </p>
+                <p class="botaoDjowGeleia">
+                    <input type="button" value="Adicionar" onclick="djow_Geleia()">
+                    <input type="button" value="Excluir" onclick="excluirDjow_Geleia()">
+                </p>
+            </div>
+
+            <!--Djow de Tilapia com Alho Poró-->
+
+            <div class="djowAlhoPoro">
+                <h3>Djow de Tílapia com Alho Poró</h3>
+                <p>
+                    <label for="alhoPoro"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="djowporo" id="alhoPoro" class="alhoPoro">
+                </p>
+                <p class="botaoAlhoPoro">
+                    <input type="button" value="Adicionar" onclick="djowPoro()">
+                    <input type="button" value="Excluir" onclick="excluirDjowPoro()">
+                </p>
+            </div>
+
+            <!--Djow de tilapia com limão siciliano.-->
+
+            <div class="djowLimaoSiciliano">
+                <h3>Djow de Tílapia com limão siciliano</h3>
+                <p>
+                    <label for="limaoSiciliano"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="Siciliano" id="limaoSiciliano" class="limaoSiciliano">
+                </p>
+                <p class="botaoDjowLimaoSiciliano">
+                    <input type="button" value="Adicionar" onclick="limaoSici()">
+                    <input type="button" value="Excluir" onclick="excluirLimaoSici()">
+                </p>
+            </div>
+
+            <!--Rigaware-->
+
+            <div class="rigaware">
+                <h3>Rigaware</h3>
+                <p>
+                    <label for="sushiRiga"><img src="img/Provisoria.jpg" alt="ImgProvisoria" width="200" height="200"></label>
+                    <input type="number" name="Siciliano" id="sushiRiga" class="riga">
+                </p>
+                <p class="botaoRiga">
+                    <input type="button" value="Adicionar" onclick="sushi_Riga()">
+                    <input type="button" value="Excluir" onclick="excluir_Riga()">
+                </p>
+            </div>
+
+
+
+
+
+            
+            
+            
+        </form>
+        
+        
+    </div>
+    
+    <!-- SaShimis-->
+    <div class="sashimis"></div>
+
+    <!-- Botão de ver pedido -->
+
+    <button onclick="displayPedidos()" class="botaoVerPedido">Ver pedidos(<span id="quantidade">0</span>)</button>
+
+    <div id="pedidos" class="pedido"></div>
+
+    <!--------------------------------------------------------------------------------------------------------------------->
+
+
+
+    <!--Scripts-->
+
+    <script src="scripts/variiavesGlobais.js"></script>
+
+    <script src="scripts/script.js"></script>
+
+    <script src="scripts/mensagens.js"></script>
+
+    <script src="scripts/scriptExclusao.js"></script>
+
+
+    <script src="scripts/finalizar.js"></script>
+
+    <script src="scripts/condiçoesDepedido.js"></script>
+
+    <script src="scripts/verPedido.js"></script>
+
+   
+</body>
+
+</html>

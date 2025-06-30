@@ -1,0 +1,205 @@
+div input.sashi_Salmao{
+    width: 214px;
+}
+
+div.sashimi_salmao div input.sashi_Salmao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+div.sashimi_salmao h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+div.sashimi_salmao div label{
+    display: block;
+    text-align: center;
+    
+}
+
+div.sashimi_salmao{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.sashimi_salmao div.botao_sashimi_salmao{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sashimi_salmao div.botao_sashimi_salmao input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.sashimi_salmao div.botao_sashimi_salmao input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+ }
+
+ /* Sashimi Atum*/
+
+div input.sashi_Atum{
+    width: 214px;
+}
+
+div.sashimi_atum div input.sashi_Atum{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+div.sashimi_atum h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+div.sashimi_atum div label{
+    display: block;
+    text-align: center;
+    
+}
+
+div.sashimi_atum{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.sashimi_atum div.botao_sashimi_atum{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sashimi_atum div.botao_sashimi_atum input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.sashimi_atum div.botao_sashimi_atum input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+ }
+
+ /* Sashimi de Peixe Branco*/
+
+ div input.sashi_branco{
+    width: 214px;
+}
+
+div.sashimi_Peixe_Branco div input.sashi_branco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+div.sashimi_Peixe_Branco h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+div.sashimi_Peixe_Branco div label{
+    display: block;
+    text-align: center;
+    
+}
+
+div.sashimi_Peixe_Branco{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.sashimi_Peixe_Branco div.botao_sashimi_Peixe_Branco{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sashimi_Peixe_Branco div.botao_sashimi_Peixe_Branco input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.sashimi_Peixe_Branco div.botao_sashimi_Peixe_Branco input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+ }
+
+ /*Sashimi de Tilapia*/
+
+ div input.sashi_tilapia{
+    width: 214px;
+}
+
+div.sashimi_Tilapia div input.sashi_tilapia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+div.sashimi_Tilapia h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+div.sashimi_Tilapia div label{
+    display: block;
+    text-align: center;
+    
+}
+
+div.sashimi_Tilapia{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.sashimi_Tilapia div.botao_sashimi_tilapia{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.sashimi_Tilapia div.botao_sashimi_tilapia input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.sashimi_Tilapia div.botao_sashimi_tilapia input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+ }

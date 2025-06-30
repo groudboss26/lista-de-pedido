@@ -1,0 +1,595 @@
+
+/* Input de quantidade do sushi Nigiri*/
+
+/* configurações dos Produtos e tamanho padrão*/
+p input.atum, input.ebi, input.kani, input.peixeBranco, input.salmao, input.skin, input.tilapia, input.djowSalmao,input.djowGeleia,input.alhoPoro,input.limaoSiciliano,input.riga{
+    width: 214px;
+}
+
+/*Atum*/
+div.nigiriAtum p input.atum{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Ebi*/
+div.nigiriEbi p input.ebi{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Kani*/
+div.nigiriKani p input.kani{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Peixe Branco*/
+div.nigiriPeixeBranco p input.peixeBranco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Salmão*/
+div.nigiriSalmao p input.salmao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Skin*/
+div.nigiriSkin p input.skin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Tilapia*/
+div.nigiriTilapia p input.tilapia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+/* Djow de Salmão*/
+div.DjowSalmao p input.djowSalmao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Djow de Geleia de Pimenta*/
+
+div.DjowGeleia p input.djowGeleia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Djow de tilapia com alho poró*/
+
+div.djowAlhoPoro p input.alhoPoro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Djow de tílapia com Limao Siciliano*/
+
+div.djowLimaoSiciliano p input.limaoSiciliano{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+/*Rigaware*/
+div.rigaware p input.riga{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(240, 248, 255, 0.671);
+}
+
+
+/* restande das configurações do nigiri sushi*/
+
+/*Nigiri Atum*/
+
+div.nigiriAtum h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+div.nigiriAtum p label{
+    display: block;
+    
+}
+
+div.nigiriAtum{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.nigiriAtum p.botaoNigiriAtum{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriAtum p.botaoNigiriAtum input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriAtum p.botaoNigiriAtum input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+ }
+
+ /*Nigiri Ebi*/
+
+ div.nigiriEbi{
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+
+ div.nigiriEbi h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.nigiriEbi p label{
+    display: block;
+}
+
+ div.nigiriEbi p.botaoNigiriEbi{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriEbi p.botaoNigiriEbi input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriEbi p.botaoNigiriEbi input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+
+/* Nigiri Kani*/
+
+
+div.nigiriKani{
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+  div.nigiriKani h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.nigiriKani p label{
+    display: block;
+}
+
+ div.nigiriKani p.botaoNigiriKani{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriKani p.botaoNigiriKani input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriKani p.botaoNigiriKani input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/* Nigiri Peixe Branco*/
+
+div.nigiriPeixeBranco{
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+  div.nigiriPeixeBranco h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+ div.nigiriPeixeBranco p label{
+    display: block;
+}
+
+ div.nigiriPeixeBranco p.botaoNigiriPeixeBranco{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriPeixeBranco p.botaoNigiriPeixeBranco input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriPeixeBranco p.botaoNigiriPeixeBranco input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/* Nigiri Salmão*/
+
+div.nigiriSalmao{
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+  div.nigiriSalmao h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.nigiriSalmao p label{
+    display: block;
+}
+
+ div.nigiriSalmao p.botaoNigiriSalmao{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriSalmao p.botaoNigiriSalmao input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriSalmao p.botaoNigiriSalmao input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/*Nigiri Skin*/
+
+div.nigiriSkin{
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+  div.nigiriSkin h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.nigiriSkin p label{
+    display: block;
+}
+
+ div.nigiriSkin p.botaoNigiriSkin{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriSkin p.botaoNigiriSkin input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriSkin p.botaoNigiriSkin input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+
+/*Nigiri Tilapia*/
+
+
+div.nigiriTilapia{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.nigiriTilapia h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.nigiriTilapia p label{
+    display: block;
+    text-align: center;
+}
+
+ div.nigiriTilapia p.botaoNigiriTilapia{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.nigiriTilapia p.botaoNigiriTilapia input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.nigiriTilapia p.botaoNigiriTilapia input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/* Djow de Salmão*/
+
+div.DjowSalmao{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.DjowSalmao h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.DjowSalmao p label{
+    display: block;
+    text-align: center;
+}
+
+ div.DjowSalmao p.botaoDjowSalmao{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.DjowSalmao p.botaoDjowSalmao input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.DjowSalmao p.botaoDjowSalmao input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/*Djow de Geleia de pimenta */
+
+div.DjowGeleia{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.DjowGeleia h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 19px;
+   }
+
+ div.DjowGeleia p label{
+    display: block;
+    text-align: center;
+}
+
+ div.DjowGeleia p.botaoDjowGeleia{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.DjowGeleia p.botaoDjowGeleia input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.DjowGeleia p.botaoDjowGeleia input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/* Djow de tilapia com alho poró*/
+
+div.djowAlhoPoro{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.djowAlhoPoro h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 17px;
+   }
+
+ div.djowAlhoPoro p label{
+    display: block;
+    text-align: center;
+}
+
+ div.djowAlhoPoro p.botaoAlhoPoro{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.djowAlhoPoro p.botaoAlhoPoro input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.djowAlhoPoro p.botaoAlhoPoro input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/* Djow de limão Siciliano*/
+
+
+div.djowLimaoSiciliano{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.djowLimaoSiciliano h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+font-size: 15px;
+   }
+
+ div.djowLimaoSiciliano p label{
+    display: block;
+    text-align: center;
+}
+
+ div.djowLimaoSiciliano p.botaoDjowLimaoSiciliano{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.djowLimaoSiciliano p.botaoDjowLimaoSiciliano input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.djowLimaoSiciliano p.botaoDjowLimaoSiciliano input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+
+/*Rigaware*/
+
+div.rigaware{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+ }
+  div.rigaware h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+   }
+
+ div.rigaware p label{
+    display: block;
+    text-align: center;
+}
+
+ div.rigaware p.botaoRiga{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.rigaware p.botaoRiga input[value="Adicionar"]{
+   width: 100px;
+   margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+div.rigaware p.botaoRiga input[value="Excluir"]{
+    width: 100px;
+    margin-right: 10px;
+   background-color: rgba(88, 47, 13, 0.603);
+   border: 1px solid rgba(0, 0, 0, 0.37);
+   border-radius: 5px;
+}
+

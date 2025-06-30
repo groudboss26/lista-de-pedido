@@ -1,0 +1,22 @@
+div.navProdutos{
+    display: flex;
+    justify-content: center;
+}
+
+div.navProdutos button[name = "nigiri"]{
+    margin-top: 10px;
+    height: 60px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    background-color: rgba(68, 23, 23, 0.521);
+}
+div.navProdutos button[name = "rigaware"]{
+    margin-top: 10px;
+    height: 60px;
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    background-color: rgba(68, 23, 23, 0.521);
+}

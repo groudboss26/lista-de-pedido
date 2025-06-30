@@ -1,0 +1,35 @@
+div.pedido{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    background-color: red;
+    top: 98px;
+    right: 98px;
+    display: none;
+    overflow: auto ;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+
+button.botaoVerPedido{
+    position: absolute;
+    top: 20px;
+    right: 220px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(247, 141, 27, 0.903);
+    box-shadow: 5px 5px  5px rgba(34, 34, 34, 0.822);
+}
+
+div.quantidade{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    top: 100px;
+    right: 200px;
+}
