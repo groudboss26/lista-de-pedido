@@ -31,4 +31,4 @@ Como Executar:
 
 Clone o repositório:
 
-git clone https://github.com/groudboss26/sushi-pedidos.git
+git clone https://github.com/groudboss26/lista-de-pedido.git
